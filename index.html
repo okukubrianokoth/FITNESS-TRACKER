@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <title>FITNESS CLUB</title>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+   <h1>Fitness Club</h1>
+    <h2>Welcome All</h2>
+    <img src="./images/fit.avif" width="50%" alt="">
+    <h1>Stretch Ups</h1>
+    <img src="./images/fitt.avif" alt="">
+    <h1>weightlifting</h1>
+    <img src="./images/fitnes8.avif" alt="">
+    <img src="./images/fitness.jpeg" alt="">
+  </header>
+
+  <fieldset>
+    <legend>
+      <h2>Client Details</h2>
+    </legend>
+
+    <form id="fitnessForm"><b></b>
+    <label>Full name:<br><br/>
+      <input type="text" id="fullName" required><br><br/>
+    </label><br>
+
+    <label>Steps Walked Today:<br><br/>
+      <input type="number" id="steps" required><br>
+    </label><br>
+
+    <label>Calories Consumed Today:<br><br/>
+      <input type="number" id="calories" required><br><br/>
+
+    </label><br>
+
+    <label>Hours Slept Last Night:<br><br/>
+      <input type="number" id="sleep" step="1" required><br>
+    </label><br>
+
+    <label>Workout Date:<br><br/>
+      <input type="date" id="workoutDate" required><br>
+    </label><br>
+
+    <label>Workout Type:<br><br/>
+
+      <select id="workoutType" required><br><br/>
+        <option value="">Select Type </option><br><br/>
+        <option>Cycling</option><br>
+        <option>Running</option><br>
+        <option>Yoga</option><br>
+        <option>weightlifting</option><br>
+      </select>
+    </label><br>
+
+    <button type="submit">Submit</button><br><br/>
+   </form><br><br/>
+
+   <section id="memberSection">
+
+   </section>
+   <div id="summary"></div><b></br><br/>
+  </fieldset>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
