@@ -1,0 +1,23 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "First i started by identifying the kind of project i was intrested in. first thing i created an index.html file, index.js,db.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okukubrianokoth/FITNESS-TRACKER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okukubrianokoth/FITNESS-TRACKER/issues"
+  },
+  "homepage": "https://github.com/okukubrianokoth/FITNESS-TRACKER#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
