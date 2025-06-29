@@ -50,7 +50,7 @@ You are free to use, modify, and distribute this software with proper attributio
 
 ## 💻 **Setup Instructions**
 
-### Prerequisites
+### Prerequisites.
 
 - Node.js & npm installed
 - [JSON Server](https://www.npmjs.com/package/json-server)
